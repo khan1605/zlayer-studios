@@ -30,8 +30,8 @@ const PrivacyPolicy = () => {
           <h2 className="text-xl font-semibold text-gray-900 mt-8">Contact Us</h2>
           <p>
             If you have questions about this privacy policy, please contact us at{' '}
-            <a href="mailto:Zafarhasanrj@gmail.com" className="text-purple-700 hover:underline">
-              Zafarhasanrj@gmail.com
+            <a href="mailto:info@zlayerstudios.com" className="text-purple-700 hover:underline">
+              info@zlayerstudios.com
             </a>.
           </p>
         </div>

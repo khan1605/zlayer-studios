@@ -15,7 +15,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:Zafarhasanrj@gmail.com?subject=Quote Request from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0AService: ${formData.service}%0A%0A${formData.message}`;
+    const mailtoLink = `mailto:info@zlayerstudios.com?subject=Quote Request from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0AService: ${formData.service}%0A%0A${formData.message}`;
     window.location.href = mailtoLink;
   };
 
@@ -118,8 +118,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900 text-sm">Email</p>
-                    <a href="mailto:Zafarhasanrj@gmail.com" className="text-purple-700 text-sm hover:underline">
-                      Zafarhasanrj@gmail.com
+                    <a href="mailto:info@zlayerstudios.com" className="text-purple-700 text-sm hover:underline">
+                      info@zlayerstudios.com
                     </a>
                   </div>
                 </div>
