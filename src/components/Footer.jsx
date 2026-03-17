@@ -40,13 +40,8 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Contact</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:hello@zlayerstudios.com" className="hover:text-white transition-colors">
-                  hello@zlayerstudios.com
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@zlayerstudios.com" className="hover:text-white transition-colors">
-                  info@zlayerstudios.com
+                <a href="mailto:Zafarhasanrj@gmail.com" className="hover:text-white transition-colors">
+                  Zafarhasanrj@gmail.com
                 </a>
               </li>
               <li>

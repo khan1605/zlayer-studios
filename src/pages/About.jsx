@@ -54,22 +54,22 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80"
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90"
                 alt="3D modeling"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&q=80"
+                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=90"
                 alt="Styled decor"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=400&q=80"
+                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=90"
                 alt="Workshop"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=90"
                 alt="Team collaboration"
                 className="rounded-xl object-cover h-48 w-full"
               />

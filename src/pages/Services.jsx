@@ -7,22 +7,22 @@ const services = [
   {
     title: 'Social Media Marketing',
     description: 'Content strategy, posting cadence, and campaigns designed to drive leads.',
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=90',
   },
   {
     title: 'IT Services & Support',
     description: 'Setup, troubleshooting, and ongoing support to keep your team productive.',
-    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=90',
   },
   {
     title: '3D Printing (Add-on)',
     description: 'Custom prints, prototypes, and product runs when you need something made.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90',
   },
   {
     title: '3D Design & File Prep',
     description: 'Model cleanup, supports/orientation guidance, and print-ready optimization.',
-    image: 'https://images.unsplash.com/photo-1563520239648-a24e51d4b570?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1563520239648-a24e51d4b570?w=1200&q=90',
   },
 ];
 

@@ -69,7 +69,7 @@ const plans = [
   },
 ];
 
-const platforms = ['Instagram', 'Facebook', 'TikTok', 'YouTube Shorts', 'LinkedIn'];
+const platforms = ['Instagram', 'Facebook', 'X (Twitter)', 'YouTube Shorts', 'LinkedIn'];
 
 const SocialMediaMarketing = () => {
   return (

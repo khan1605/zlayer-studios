@@ -37,8 +37,8 @@ const TermsAndConditions = () => {
           <h2 className="text-xl font-semibold text-gray-900 mt-8">Contact</h2>
           <p>
             For questions about these terms, contact us at{' '}
-            <a href="mailto:hello@zlayerstudios.com" className="text-purple-700 hover:underline">
-              hello@zlayerstudios.com
+            <a href="mailto:Zafarhasanrj@gmail.com" className="text-purple-700 hover:underline">
+              Zafarhasanrj@gmail.com
             </a>.
           </p>
         </div>
