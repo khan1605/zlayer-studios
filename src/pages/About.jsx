@@ -17,7 +17,7 @@ const team = [
   },
   {
     role: 'Digital Services Lead',
-    description: 'Provides IT support and builds marketing systems for small-business visibility and lead generation.',
+    description: 'Provides digital marketing and builds marketing systems for small-business visibility and lead generation.',
   },
 ];
 
@@ -30,7 +30,7 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About ZLayer Studios</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             We make custom 3D-printed home decor and personalized miniatures&mdash;plus rapid prototyping,
-            IT support, and social media marketing that helps small businesses grow.
+            digital marketing, and social media marketing that helps small businesses grow.
           </p>
         </div>
       </section>
@@ -45,14 +45,14 @@ const About = () => {
               </h2>
               <p className="text-gray-600 mb-4">
                 The studio was established to simplify access to custom fabrication and digital support.
-                It combines 3D printing with IT services and social media marketing, enabling clients to
+                It combines 3D printing with digital marketing and social media marketing, enabling clients to
                 launch ideas, ship products, and receive ongoing support through a single vendor rather
                 than multiple providers.
               </p>
               <p className="text-gray-600">
                 We design and produce made-to-order 3D prints ranging from home decor to personalized
                 miniatures using quality materials and finishing options. For businesses, services include
-                rapid prototyping, IT support, and social media marketing to maintain operational stability
+                rapid prototyping, digital marketing, and social media marketing to maintain operational stability
                 and brand visibility.
               </p>
             </div>

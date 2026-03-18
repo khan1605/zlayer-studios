@@ -14,7 +14,7 @@ const services = [
     image: socialMedia,
   },
   {
-    title: 'IT Services & Support',
+    title: 'Digital Marketing',
     description: 'Setup, troubleshooting, and ongoing support to keep your team productive.',
     image: digitalMarketing,
   },
@@ -64,10 +64,10 @@ const Services = () => {
       <section className="bg-gradient-to-br from-purple-50 via-white to-purple-50 py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Social media marketing and IT services for small businesses
+            Social media marketing and digital marketing services for small businesses
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Social media marketing and small-business IT services built for clear communication and
+            Social media marketing and small-business digital marketing services built for clear communication and
             measurable results&mdash;with 3D printing available when you need prototypes, custom parts,
             or product runs.
           </p>
@@ -133,7 +133,7 @@ const Services = () => {
               Start a Quote
             </Link>
             <p className="text-xs text-gray-500 mt-4 text-center">
-              Need ongoing marketing or IT support? We offer monthly retainers&mdash;request details in your message.
+              Need ongoing marketing or digital marketing support? We offer monthly retainers&mdash;request details in your message.
             </p>
           </div>
         </div>

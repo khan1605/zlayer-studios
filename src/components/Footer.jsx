@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <h3 className="text-white text-lg font-bold font-[Poppins] mb-3">Z-LAYER STUDIOS</h3>
             <p className="text-sm">
-              Custom 3D printing, social media marketing, and IT services for small businesses.
+              Custom 3D printing, social media marketing, and digital marketing for small businesses.
             </p>
           </div>
 
@@ -19,7 +19,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link to="/3d-printing" className="hover:text-white transition-colors">3D Printing</Link></li>
               <li><Link to="/social-media-marketing" className="hover:text-white transition-colors">Social Media Marketing</Link></li>
-              <li><Link to="/services" className="hover:text-white transition-colors">IT Services</Link></li>
+              <li><Link to="/services" className="hover:text-white transition-colors">Digital Marketing</Link></li>
               <li><Link to="/shop" className="hover:text-white transition-colors">Shop</Link></li>
             </ul>
           </div>

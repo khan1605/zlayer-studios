@@ -9,7 +9,7 @@ const TermsAndConditions = () => {
           </p>
           <h2 className="text-xl font-semibold text-gray-900 mt-8">Services</h2>
           <p>
-            Z-Layer Studios provides custom 3D printing, social media marketing, and IT support services.
+            Z-Layer Studios provides custom 3D printing, social media marketing, and digital marketing services.
             All services are subject to availability and may vary based on project requirements.
           </p>
           <h2 className="text-xl font-semibold text-gray-900 mt-8">Orders and Quotes</h2>

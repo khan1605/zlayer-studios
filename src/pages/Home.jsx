@@ -37,7 +37,7 @@ const services = [
     image: socialMedia,
   },
   {
-    title: 'IT Services & Support',
+    title: 'Digital Marketing',
     description: 'Setup, troubleshooting, and ongoing support to keep your business running.',
     image: digitalMarketing,
   },
@@ -55,7 +55,7 @@ const testimonials = [
     role: 'Rapid Prototyping',
   },
   {
-    quote: 'Clear communication, practical IT help, and a social plan we could execute right away.',
+    quote: 'Clear communication, great digital strategy, and a social plan we could execute right away.',
     name: 'Morgan S.',
     role: 'Small Business Services',
   },
@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     question: 'Can you help with IT or social media without a print order?',
-    answer: 'Yes. You can book IT support or social media marketing as standalone services\u2014no print order required.',
+    answer: 'Yes. You can book digital marketing or social media marketing as standalone services\u2014no print order required.',
   },
   {
     question: 'Do you offer bulk or business pricing?',
@@ -97,14 +97,14 @@ const Home = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Social Media Marketing
             <span className="text-purple-700"> + </span>
-            IT Services
+            Digital Marketing
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-4 font-medium">
-            Marketing that drives leads. IT that keeps you running.
+            Marketing that drives leads. Digital strategy that delivers results.
           </p>
           <p className="text-gray-500 max-w-2xl mx-auto mb-8">
             We help small businesses grow with social media strategy, content, and campaigns&mdash;plus
-            practical IT support. Need something made? Our 3D printing studio is available as an add-on service.
+            digital marketing expertise. Need something made? Our 3D printing studio is available as an add-on service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

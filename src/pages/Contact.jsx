@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Let&apos;s build something custom</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Share details about your 3D printing project, prototype, IT support, or social media needs and
+            Share details about your 3D printing project, prototype, digital marketing, or social media needs and
             we&apos;ll get back to you with a quote.
           </p>
         </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                     <option value="3D Printing">Custom 3D Printing</option>
                     <option value="Prototyping">Rapid Prototyping</option>
                     <option value="Social Media">Social Media Marketing</option>
-                    <option value="IT Support">IT Services & Support</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
