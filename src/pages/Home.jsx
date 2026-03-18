@@ -3,37 +3,43 @@ import ServiceCard from '../components/ServiceCard';
 import TestimonialCard from '../components/TestimonialCard';
 import SectionHeading from '../components/SectionHeading';
 import FAQ from '../components/FAQ';
+import printingLab from '../assets/images/3d-printing-lab.png';
+import products3d from '../assets/images/3d-products.png';
+import miniature from '../assets/images/miniature.png';
+import homeDecor from '../assets/images/home-decor.png';
+import socialMedia from '../assets/images/social-media.png';
+import digitalMarketing from '../assets/images/digital-marketing.png';
 
 const services = [
   {
     title: 'Custom 3D Printing',
     description: 'Made-to-order parts, decor, and gifts with material and finish options.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90',
+    image: printingLab,
   },
   {
     title: 'Rapid Prototyping',
     description: 'Fast iterations from concept to functional prototypes\u2014test and refine quickly.',
-    image: 'https://images.unsplash.com/photo-1563520239648-a24e51d4b570?w=1200&q=90',
+    image: products3d,
   },
   {
     title: 'Personalized Miniatures',
     description: 'Miniatures designed for you\u2014great for gifts, collections, and tabletop.',
-    image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&q=90',
+    image: miniature,
   },
   {
     title: '3D Printed Home Decor',
     description: 'Modern decor pieces that fit your space\u2014custom sizes and colors available.',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=90',
+    image: homeDecor,
   },
   {
     title: 'Social Media Marketing',
     description: 'Content planning and campaigns to build awareness, engagement, and leads.',
-    image: 'https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=90',
+    image: socialMedia,
   },
   {
     title: 'IT Services & Support',
     description: 'Setup, troubleshooting, and ongoing support to keep your business running.',
-    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=90',
+    image: digitalMarketing,
   },
 ];
 

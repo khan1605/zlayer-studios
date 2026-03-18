@@ -1,42 +1,46 @@
 import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
+import homeDecor from '../assets/images/home-decor.png';
+import miniature from '../assets/images/miniature.png';
+import printingLab from '../assets/images/3d-printing-lab.png';
+import products3d from '../assets/images/3d-products.png';
 
 const products = [
   {
     name: 'Geometric Planter',
     price: '$24.99',
     category: 'Home Decor',
-    image: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=1200&q=90',
+    image: homeDecor,
   },
   {
     name: 'Abstract Vase',
     price: '$34.99',
     category: 'Home Decor',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=90',
+    image: homeDecor,
   },
   {
     name: 'Desk Organizer',
     price: '$19.99',
     category: 'Functional',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90',
+    image: printingLab,
   },
   {
     name: 'Custom Miniature',
     price: 'From $14.99',
     category: 'Miniatures',
-    image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&q=90',
+    image: miniature,
   },
   {
     name: 'Wall Art Panel',
     price: '$44.99',
     category: 'Home Decor',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=1200&q=90',
+    image: products3d,
   },
   {
     name: 'Phone Stand',
     price: '$12.99',
     category: 'Functional',
-    image: 'https://images.unsplash.com/photo-1563520239648-a24e51d4b570?w=1200&q=90',
+    image: products3d,
   },
 ];
 

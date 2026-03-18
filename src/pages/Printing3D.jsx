@@ -2,27 +2,31 @@ import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
 import SectionHeading from '../components/SectionHeading';
 import FAQ from '../components/FAQ';
+import printingLab from '../assets/images/3d-printing-lab.png';
+import miniature from '../assets/images/miniature.png';
+import products3d from '../assets/images/3d-products.png';
+import homeDecor from '../assets/images/home-decor.png';
 
 const printServices = [
   {
     title: 'Custom 3D Prints',
     description: 'Made-to-order decor, gifts, and functional parts in various sizes, colors, and finishes.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90',
+    image: printingLab,
   },
   {
     title: 'Personalized Miniatures',
     description: 'High-detail minis for display or tabletop gaming from references or concepts.',
-    image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&q=90',
+    image: miniature,
   },
   {
     title: 'Rapid Prototyping',
     description: 'Fast iterations for product ideas including fit checks and functional prototypes.',
-    image: 'https://images.unsplash.com/photo-1563520239648-a24e51d4b570?w=1200&q=90',
+    image: products3d,
   },
   {
     title: 'Small-Batch Production',
     description: 'Consistent prints for short runs with QC checks and packaging-ready output.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=90',
+    image: homeDecor,
   },
 ];
 

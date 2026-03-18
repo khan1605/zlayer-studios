@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import TestimonialCard from '../components/TestimonialCard';
+import printingLab from '../assets/images/3d-printing-lab.png';
+import homeDecor from '../assets/images/home-decor.png';
+import products3d from '../assets/images/3d-products.png';
+import socialMedia from '../assets/images/social-media.png';
 
 const team = [
   {
@@ -54,23 +58,23 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=90"
+                src={printingLab}
                 alt="3D modeling"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=90"
+                src={homeDecor}
                 alt="Styled decor"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=90"
+                src={products3d}
                 alt="Workshop"
                 className="rounded-xl object-cover h-48 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=90"
-                alt="Team collaboration"
+                src={socialMedia}
+                alt="Marketing"
                 className="rounded-xl object-cover h-48 w-full"
               />
             </div>
