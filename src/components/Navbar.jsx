@@ -6,6 +6,7 @@ const navLinks = [
   { to: '/services', label: 'Services' },
   { to: '/3d-printing', label: '3D Printing' },
   { to: '/social-media-marketing', label: 'Social Media Marketing' },
+  { to: '/election-campaigns', label: 'Election Campaigns' },
   { to: '/shop', label: 'Shop' },
   { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },

@@ -7,6 +7,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Printing3D from './pages/Printing3D';
 import SocialMediaMarketing from './pages/SocialMediaMarketing';
+import ElectionCampaigns from './pages/ElectionCampaigns';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/3d-printing" element={<Printing3D />} />
           <Route path="/social-media-marketing" element={<SocialMediaMarketing />} />
+          <Route path="/election-campaigns" element={<ElectionCampaigns />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

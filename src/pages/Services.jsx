@@ -3,30 +3,30 @@ import ServiceCard from '../components/ServiceCard';
 import TestimonialCard from '../components/TestimonialCard';
 import SectionHeading from '../components/SectionHeading';
 import socialMedia from '../assets/images/social-media.png';
-import digitalMarketing from '../assets/images/digital-marketing.png';
 import printingLab from '../assets/images/3d-printing-lab.png';
-import products3d from '../assets/images/3d-products.png';
+import miniature from '../assets/images/miniature.png';
+import electionRally from '../assets/images/election-rally.jpeg';
 
 const services = [
+  {
+    title: 'Custom 3D Printing',
+    description: 'Custom prints, prototypes, and product runs when you need something made.',
+    image: printingLab,
+  },
+  {
+    title: 'Personalized Miniatures',
+    description: 'Miniatures designed for you—great for gifts, collections, and tabletop.',
+    image: miniature,
+  },
   {
     title: 'Social Media Marketing',
     description: 'Content strategy, posting cadence, and campaigns designed to drive leads.',
     image: socialMedia,
   },
   {
-    title: 'Digital Marketing',
-    description: 'Setup, troubleshooting, and ongoing support to keep your team productive.',
-    image: digitalMarketing,
-  },
-  {
-    title: '3D Printing (Add-on)',
-    description: 'Custom prints, prototypes, and product runs when you need something made.',
-    image: printingLab,
-  },
-  {
-    title: '3D Design & File Prep',
-    description: 'Model cleanup, supports/orientation guidance, and print-ready optimization.',
-    image: products3d,
+    title: 'Election Campaigns',
+    description: 'End-to-end campaign management—strategy, outreach, and voter engagement.',
+    image: electionRally,
   },
 ];
 

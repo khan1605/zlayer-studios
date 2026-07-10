@@ -76,9 +76,9 @@ const Contact = () => {
                   >
                     <option value="">Select a service</option>
                     <option value="3D Printing">Custom 3D Printing</option>
-                    <option value="Prototyping">Rapid Prototyping</option>
+                    <option value="Miniatures">Personalized Miniatures</option>
                     <option value="Social Media">Social Media Marketing</option>
-                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Election Campaigns">Election Campaigns</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
@@ -132,8 +132,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900 text-sm">Phone</p>
-                    <a href="tel:+918936054721" className="text-purple-700 text-sm hover:underline">
-                      +91 8936054721
+                    <a href="tel:+919155552702" className="text-purple-700 text-sm hover:underline">
+                      +91 9155552702
                     </a>
                   </div>
                 </div>

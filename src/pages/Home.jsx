@@ -4,11 +4,9 @@ import TestimonialCard from '../components/TestimonialCard';
 import SectionHeading from '../components/SectionHeading';
 import FAQ from '../components/FAQ';
 import printingLab from '../assets/images/3d-printing-lab.png';
-import products3d from '../assets/images/3d-products.png';
 import miniature from '../assets/images/miniature.png';
-import homeDecor from '../assets/images/home-decor.png';
 import socialMedia from '../assets/images/social-media.png';
-import digitalMarketing from '../assets/images/digital-marketing.png';
+import electionRally from '../assets/images/election-rally.jpeg';
 
 const services = [
   {
@@ -17,19 +15,9 @@ const services = [
     image: printingLab,
   },
   {
-    title: 'Rapid Prototyping',
-    description: 'Fast iterations from concept to functional prototypes\u2014test and refine quickly.',
-    image: products3d,
-  },
-  {
     title: 'Personalized Miniatures',
     description: 'Miniatures designed for you\u2014great for gifts, collections, and tabletop.',
     image: miniature,
-  },
-  {
-    title: '3D Printed Home Decor',
-    description: 'Modern decor pieces that fit your space\u2014custom sizes and colors available.',
-    image: homeDecor,
   },
   {
     title: 'Social Media Marketing',
@@ -37,9 +25,9 @@ const services = [
     image: socialMedia,
   },
   {
-    title: 'Digital Marketing',
-    description: 'Setup, troubleshooting, and ongoing support to keep your business running.',
-    image: digitalMarketing,
+    title: 'Election Campaigns',
+    description: 'End-to-end campaign management\u2014strategy, outreach, and voter engagement.',
+    image: electionRally,
   },
 ];
 
