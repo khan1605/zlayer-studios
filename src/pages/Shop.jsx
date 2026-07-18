@@ -8,37 +8,37 @@ import products3d from '../assets/images/3d-products.png';
 const products = [
   {
     name: 'Geometric Planter',
-    price: '$24.99',
+    price: '₹1,999',
     category: 'Home Decor',
     image: homeDecor,
   },
   {
     name: 'Abstract Vase',
-    price: '$34.99',
+    price: '₹2,799',
     category: 'Home Decor',
     image: homeDecor,
   },
   {
     name: 'Desk Organizer',
-    price: '$19.99',
+    price: '₹1,599',
     category: 'Functional',
     image: printingLab,
   },
   {
     name: 'Custom Miniature',
-    price: 'From $14.99',
+    price: 'From ₹1,199',
     category: 'Miniatures',
     image: miniature,
   },
   {
     name: 'Wall Art Panel',
-    price: '$44.99',
+    price: '₹3,599',
     category: 'Home Decor',
     image: products3d,
   },
   {
     name: 'Phone Stand',
-    price: '$12.99',
+    price: '₹999',
     category: 'Functional',
     image: products3d,
   },

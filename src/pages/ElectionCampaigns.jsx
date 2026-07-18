@@ -2,40 +2,24 @@ import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import electoralStrategies from '../assets/images/electoral-strategies.jpeg';
 import electionRally from '../assets/images/election-rally.jpeg';
+import service1 from '../assets/images/election/service-1.jpeg';
+import service2 from '../assets/images/election/service-2.jpeg';
+import service3 from '../assets/images/election/service-3.jpeg';
+import service4 from '../assets/images/election/service-4.jpeg';
+import service5 from '../assets/images/election/service-5.jpeg';
+import service6 from '../assets/images/election/service-6.jpeg';
+import service7 from '../assets/images/election/service-7.jpeg';
+import service8 from '../assets/images/election/service-8.jpeg';
 
 const services = [
-  {
-    title: 'Political Strategy',
-    description: 'Develop winning campaign strategies based on constituency demographics, voter behavior, and political landscape.',
-  },
-  {
-    title: 'Digital Campaign Management',
-    description: 'Manage your online presence through social media, targeted advertising, and digital voter engagement.',
-  },
-  {
-    title: 'Booth Management',
-    description: 'Strengthen grassroots operations with effective booth-level planning and volunteer coordination.',
-  },
-  {
-    title: 'Voter Survey & Research',
-    description: 'Conduct detailed surveys, opinion polls, and constituency analysis to understand voter sentiment.',
-  },
-  {
-    title: 'Public Relations & Media Management',
-    description: 'Build a strong public image through media outreach, press management, and communication strategies.',
-  },
-  {
-    title: 'Content & Creative Design',
-    description: 'Create impactful speeches, campaign slogans, videos, graphics, and promotional materials.',
-  },
-  {
-    title: 'Event & Rally Management',
-    description: 'Plan and execute political rallies, roadshows, public meetings, and campaign events.',
-  },
-  {
-    title: 'War Room & Data Analytics',
-    description: 'Monitor campaign performance in real time using advanced analytics and data-driven decision-making.',
-  },
+  { title: 'Political Strategy', image: service1 },
+  { title: 'Digital Campaign Management', image: service2 },
+  { title: 'Booth Management', image: service3 },
+  { title: 'Voter Survey & Research', image: service4 },
+  { title: 'Public Relations & Media Management', image: service5 },
+  { title: 'Content & Creative Design', image: service6 },
+  { title: 'Event & Rally Management', image: service7 },
+  { title: 'War Room & Data Analytics', image: service8 },
 ];
 
 const process = [
@@ -213,13 +197,9 @@ const ElectionCampaigns = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="rounded-2xl bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow"
+                className="rounded-2xl overflow-hidden bg-white border border-gray-100 hover:shadow-lg transition-shadow"
               >
-                <div className="w-10 h-10 rounded-lg bg-purple-100 text-purple-700 font-bold flex items-center justify-center mb-4">
-                  {index + 1}
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.title}</h3>
-                <p className="text-sm text-gray-600">{service.description}</p>
+                <img src={service.image} alt={service.title} className="w-full h-auto" />
               </div>
             ))}
           </div>

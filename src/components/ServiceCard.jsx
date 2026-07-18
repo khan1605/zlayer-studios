@@ -1,6 +1,8 @@
-const ServiceCard = ({ title, description, image }) => {
-  return (
-    <div className="group rounded-2xl overflow-hidden bg-white border border-gray-100 hover:shadow-lg transition-shadow">
+import { Link } from 'react-router-dom';
+
+const ServiceCard = ({ title, description, image, to }) => {
+  const content = (
+    <>
       <div className="aspect-[4/3] overflow-hidden">
         <img
           src={image}
@@ -12,8 +14,16 @@ const ServiceCard = ({ title, description, image }) => {
         <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
         <p className="text-sm text-gray-600">{description}</p>
       </div>
-    </div>
+    </>
   );
+
+  const className = 'group block rounded-2xl overflow-hidden bg-white border border-gray-100 hover:shadow-lg transition-shadow';
+
+  if (to) {
+    return <Link to={to} className={className}>{content}</Link>;
+  }
+
+  return <div className={className}>{content}</div>;
 };
 
 export default ServiceCard;

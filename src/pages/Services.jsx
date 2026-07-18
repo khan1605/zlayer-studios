@@ -12,6 +12,7 @@ const services = [
     title: 'Custom 3D Printing',
     description: 'Custom prints, prototypes, and product runs when you need something made.',
     image: printingLab,
+    to: '/3d-printing',
   },
   {
     title: 'Personalized Miniatures',
@@ -22,11 +23,13 @@ const services = [
     title: 'Social Media Marketing',
     description: 'Content strategy, posting cadence, and campaigns designed to drive leads.',
     image: socialMedia,
+    to: '/social-media-marketing',
   },
   {
     title: 'Election Campaigns',
     description: 'End-to-end campaign management—strategy, outreach, and voter engagement.',
     image: electionRally,
+    to: '/election-campaigns',
   },
 ];
 

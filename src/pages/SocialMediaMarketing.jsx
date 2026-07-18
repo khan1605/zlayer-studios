@@ -50,13 +50,13 @@ const process = [
 const plans = [
   {
     name: 'Essentials',
-    price: '$399',
+    price: '₹32,999',
     period: '/month',
     features: ['8 posts/month', 'Content strategy', 'Basic monitoring', 'Monthly report'],
   },
   {
     name: 'Growth',
-    price: '$799',
+    price: '₹64,999',
     period: '/month',
     popular: true,
     features: ['12-16 posts/month', 'Video support', 'Lead campaigns', 'Bi-weekly reporting'],
